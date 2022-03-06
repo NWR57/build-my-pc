@@ -1,0 +1,15 @@
+{
+  "name": "build-my-pc",
+  "version": "1.0.0",
+  "description": "Build my PC is an advanced discord bot made to give tech updates and many more. This bot was made in DJSv13 by Nadid Wasique a.k.a NWR57. Copyright PC Builder Bangladesh.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nadid Wasique",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "express": "^4.17.3"
+  }
+}
