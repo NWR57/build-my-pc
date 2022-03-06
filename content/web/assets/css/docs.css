@@ -1,0 +1,14 @@
+*{
+	padding: 0;
+}
+
+body, html{
+  color: #fff;
+  background: #1a1a1a;
+  align-content: center;
+  text-align: center;
+}
+
+a{
+	text-decoration: none;
+}

@@ -1,13 +1,413 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Build My PC - A discord bot</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Build My PC - A discord bot that does wonders</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Fonts Import -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Package CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/bc2ae7ad0e.js"></script>
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <h1>Online</h1>
+
+  <!-- Header -->
+
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+       <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+            <!-- Navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#features">Features</a></li>
+          <li><a class="nav-link scrollto" href="#team">Developers</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Get Premium</a></li>
+          <li><a class="getstarted" href="docs.html">Read Docs</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- End Navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- Home Section -->
+  <section id="home" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Build My <span>PC</span></h1>
+          <h2>A bot that does wonders</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#" class="btn-hollow glightbox" ><i class="fa-solid fa-plus"></i> Invite Me</a>
+            <a href="docs.html" class="btn-solid glightbox" ><i class="fa-solid fa-book"></i> Read Docs</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 home-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/ching-chong.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Home -->
+
+  <main id="main">
+     <section id="counter" class="counter">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <i></i><span class="counter-child"></span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Build My PC is an advanced discord bot made using the Discord.JS v13 API. This bot provides :
+            </p>
+            <ul>
+              <li><i class="fa-solid fa-angles-right"></i> Gaming and Work PC builds from any range you want</li>
+              <li><i class="fa-solid fa-angles-right"></i> Lastest tech news and updates</li>
+              <li><i class="fa-solid fa-angles-right"></i> And many more fun commands</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Build My PC bot is a bot made and powered by tech enthusiasts. This bot was made at first to give builds to our discord server members but later was made public so tech hungry people all around the world can have a taste of it. This bot is made by members of <a href="https://www.pcbuilderbd.com/" target="_blank">PC Builder Bangladesh</a>. Know more about the devs <a href="#team" class="scrollto">here</a>. You can also join our <a href="https://discord.gg/A4AaAAcZ5B" target="_blank">discord server</a> if you want <3
+            </p>
+            <br>
+            <a href="#" class="btn-hollow btn-about">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Features</h2>
+          <p>Build My PC has a lot of features commands and many more. Some of the most mention worthy features are as follows :</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="fa-solid fa-desktop"></i></div>
+              <h4>PC Builds</h4>
+              <p>Get PC builds and components list to build you own dream PC</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="fa-solid fa-newspaper"></i></div>
+              <h4>Latest Tech News</h4>
+              <p>Keep up with latest tech news and trends</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="fa-solid fa-face-grin-wink"></i></div>
+              <h4>Fun and Miscellaneous Commands</h4>
+              <p>Explore the commands and get entertained</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="fa-solid fa-users"></i></div>
+              <h4>Tech Support</h4>
+              <p>Got any tech related problems? Get in touch with our experienced and expert staff members</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- Promo Action Section -->
+    <section id="promo-action" class="promo-action">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Facing any issue or bug</h3>
+            <p> Using the bot and facing a problem, confusion or even questions? Join our support server to get help from professional people</p>
+          </div>
+          <div class="col-lg-3 promo-action-btn-container text-center">
+            <a class="promo-action-btn align-middle" href="https://discord.gg/A4AaAAcZ5B" target="_blank"><i class="fa-brands fa-discord"></i> Join Server</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Promo Action Section -->
+
+  
+    <!-- Team Section -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Developer Team</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/team/nadid.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Nadid Wasique</h4>
+                <span>Creator,Lead Web-Developer</span>
+                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <div class="social">
+                  <a href="https://www.facebook.com/nadid.wasique/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/nadid.ws_57/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://twitter.com/Nadid_Wasique" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://discord.gg/qnWJTUr3pK" target="_blank"> <i class="fa-brands fa-discord"></i> </a>
+                  <a href="https://www.youtube.com/channel/UC6ciSQf5zxMhP8pl9bq8vMg" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                  <a href="https://nadid-wasique.netlify.app" target="_blank"> <i class="fa-solid fa-globe"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="assets/img/team/zihan.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>A.R Zihan</h4>
+                <span>Planning Executive and Assets</span>
+                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <div class="social">
+                  <a href="https://www.instagram.com/a.r.zihan/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://twitter.com/BurningZ2" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://discord.gg/h7gkXfAaQG" target="_blank"> <i class="fa-brands fa-discord"></i> </a>
+                  <a href="https://www.youtube.com/user/Zihanforall" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/team/atul.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Fahim Hossain Atul</h4>
+                <span>Just....idk he gives builds ig</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div class="social">
+                  <a href="https://www.facebook.com/fahim.atul/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/fahim.atul/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://twitter.com/Fahim_Atul/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="https://www.youtube.com/c/FahimHossainawesome/" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                  <a href="https://www.linkedin.com/in/fahimatul/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+                  <a href="https://fahimdottech.wordpress.com" target="_blank"> <i class="fa-solid fa-globe"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/team/jahin.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Jahin Hossain</h4>
+                <span>Just because he exists</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href="https://www.facebook.com/jahin.hossain.921" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/tacticalcatto/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="https://www.youtube.com/channel/UCP-4cdP3b4ybqnAn4bx_sZw" target="_blank"> <i class="fa-brands fa-youtube"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+          <p>Build My PC bot was made by enthusiasts and doesn't have proper sponsors help us out by buying premium editions of our bot so we can feed ourselves</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <h3>Free Plan</h3>
+              <h4><sup>$</sup>0<span>per month</span></h4>
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Quam adipiscing vitae proin</li>
+                <li><i class="fa-solid fa-check"></i> Nec feugiat nisl pretium</li>
+                <li><i class="fa-solid fa-check"></i> Nulla at volutpat diam uteera</li>
+                <li class="na"><i class="fa-solid fa-xmark"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="fa-solid fa-xmark"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn" target="_blank">Invite Free</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="box featured">
+              <h3>Premium Plan</h3>
+              <h4><sup>$</sup>10<span>per month</span></h4>
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Quam adipiscing vitae proin</li>
+                <li><i class="fa-solid fa-check"></i> Nec feugiat nisl pretium</li>
+                <li><i class="fa-solid fa-check"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="fa-solid fa-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="fa-solid fa-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn lock">Comming Soon</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <h3>Developer Plan</h3>
+              <h4><sup>$</sup>50<span>per month</span></h4>
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Quam adipiscing vitae proin</li>
+                <li><i class="fa-solid fa-check"></i> Nec feugiat nisl pretium</li>
+                <li><i class="fa-solid fa-check"></i> Nulla at volutpat diam uteera</li>
+                <li><i class="fa-solid fa-check"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="fa-solid fa-check"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn lock">Coming Soon</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+  </main><!-- End #main -->
+
+  <!-- Footer -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Build My <span>PC</span></h3>
+            <p>
+              Road 17 <br>
+              Dhaka, DHK 1212<br>
+              Bangladesh <br><br>
+              <strong>Email:</strong> <a href="mailto: bots@pcbuilderbd.com">bots@pcbuilderbd.com</a><br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li> <a href="https://www.pcbuilderbd.com" target="_blank"><i class="fa-solid fa-angles-right"></i> Website</a></li>
+              <li> <a href="#about"><i class="fa-solid fa-angles-right"></i> About us</a></li>
+              <li> <a href="assets/content/terms-of-service.html"><i class="fa-solid fa-angles-right"></i> Terms of service</a></li>
+              <li> <a href="assets/content/privacy-policy.html"><i class="fa-solid fa-angles-right"></i> Privacy Policy</a></li>             
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li> <a href="https://www.pcbuilderbd.com/news/" target="_blank"><i class="fa-solid fa-angles-right"></i> Tech News</a></li>
+              <li> <a href="https://www.pcbuilderbd.com/tech-gossip/" target="_blank"><i class="fa-solid fa-angles-right"></i> Product Reviews</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Follow us on social media</p>
+            <div class="social-links mt-3">
+              <a href="https://twitter.com/pcb_bd" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.facebook.com/pcbuilder.bd" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/pcb.bd/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.youtube.com/c/PCBuilderBangladesh" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://discord.gg/A4AaAAcZ5B" target="_blank"><i class="fa-brands fa-discord"></i></a>
+              <a href="https://www.pcbuilderbd.com" target="_blank"><i class="fa-solid fa-globe"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>PC Builder Bangladesh</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed with <i class="fa-solid fa-heart"></i> by <a href="https://instagram.com/nadid.ws_57" target="_blank">Nadid Wasique</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+    
+
+  <!-- Package JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
