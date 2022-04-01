@@ -29,6 +29,10 @@ client.on('messageCreate', async message => {
   // if(command === 'budget' && args[0] >= 30 && 34 >= args[0]){
   //  builds.get('30-34k').run()
   // }
+
+  // if(message.author.id === '832922325149810688') {
+  //   message.reply('Joe')
+  // }
 })
 
 client.login(process.env.token)

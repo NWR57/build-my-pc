@@ -7,9 +7,9 @@ module.exports = {
   description : 'yes',
   run : async(client, message) => {
 
-// if(!message.content.startsWith(prefix) || message.author.bot) return;
-// const args = message.content.slice(prefix.length).trim().split(' ');
-// const command = args.shift().toLowerCase();
+if(!message.content.startsWith(prefix) || message.author.bot) return;
+const args = message.content.slice(prefix.length).trim().split(' ');
+const command = args.shift().toLowerCase();
    
     if(command === 'budget' && args[0] >= 30 && 34 >= args[0]) {
      const row = new Discord.MessageActionRow()
@@ -47,17 +47,17 @@ module.exports = {
           },
           {
             name : 'Motherboard',
-            value : ' ',
+            value : 'Some random Mobo',
             inline : true
           },
           {
             name : 'GPU',
-            value : ' ',
+            value : '4090',
             inline : true
           },
           {
             name : 'Power Shroud',
-            value : ' ',
+            value : 'A lot',
             inline : true
           },
           {
@@ -81,6 +81,7 @@ module.exports = {
             inline : true
           }
           ])
+      
         let amd =new Discord.MessageEmbed()
           .setTitle('Here is the intel build for budget 30-34k')
           .setDescription('*This build consists of products and parts which may have different price due to the inconsistency of the PC parts market. Please forgive any inconvenience for that cause.*')
@@ -88,22 +89,22 @@ module.exports = {
           .addFields([
           {
             name : 'CPU',
-            value : 'Ryzon Ci Pi You ...amod',
+            value : 'Intel i3 = 10,000tk',
             inline : true
           },
           {
             name : 'Motherboard',
-            value : ' ',
+            value : 'Some random Mobo',
             inline : true
           },
           {
             name : 'GPU',
-            value : ' ',
+            value : '4090',
             inline : true
           },
           {
             name : 'Power Shroud',
-            value : ' ',
+            value : 'A lot',
             inline : true
           },
           {
