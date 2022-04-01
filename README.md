@@ -9,6 +9,8 @@
 
 `.build <ammount>` => Gives you a PC build best for your budget.
 
+`.follow <category>` => Gives you all links you need for tech updates and more.
+
 ***We are looking forward to adding more commands as we speak***
 
 
