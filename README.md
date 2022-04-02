@@ -9,7 +9,14 @@
 
 `.build <ammount>` => Gives you a PC build best for your budget.
 
-`.follow <category>` => Gives you all links you need for tech updates and more.
+`.follow` => Gives you all links you need for tech updates and more.
+
+`.ping` => Gives you the websocket ping hashrate.
+
+`.info` => Gives you detailed information about the bot and it's developers.
+
+`.invite` => Gives you links to invte the bot to your own server.
+
 
 ***We are looking forward to adding more commands as we speak***
 
