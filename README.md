@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://discord.gg/A4AaAAcZ5B"><img src="https://img.shields.io/discord/781592241633493003?color=%235865F2&label=Join%20our%20discord%20server&logo=discord&logoColor=white&style=for-the-badge"/></a>
-<a href="https://discord.com/api/oauth2/authorize?client_id=898402061106962462&permissions=412854111297&scope=bot"
+<a href="https://discord.com/api/oauth2/authorize?client_id=898402061106962462&permissions=412854111297&scope=bot">
   <img src="https://img.shields.io/badge/Invite Me-ffd343?style=for-the-badge" alt="Invite the bot"></a>
 </p>
 
