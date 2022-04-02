@@ -10,7 +10,7 @@ if(command === 'guildcount' && message.author.id === '832922325149810688'){
 
     return message.reply(`I am in ${servers} servers at this very moment, Sir!`)
 } else {
-  return message.reply('This is a owner only command')
+  message.reply('This is a owner only command')
 }
     }
 };
