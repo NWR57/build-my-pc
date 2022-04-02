@@ -2,7 +2,10 @@
 
 [Build My PC](https://build-my-pc.pcbbd.repl.co) is a discord bot made to give tech updates to keep you up with the tech game and also help you choose a pc you really deserve. 
 
+<p align="center">
 <a href="https://discord.gg/A4AaAAcZ5B"><img src="https://img.shields.io/discord/781592241633493003?color=%235865F2&label=Join%20our%20discord%20server&logo=discord&logoColor=white&style=for-the-badge"/></a>
+<img src="https://img.shields.io/badge/Invite Me-ffd343?style=for-the-badge&logo=plus" alt="Invite the bot">
+</p>
 
 ## Commands
 `.help` => Gives you a list of commands that may help you operate bot.
